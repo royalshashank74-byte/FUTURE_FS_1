@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Morgan | Full Stack Web Developer Portfolio</title>
+<meta name="description" content="Alex Morgan is a Full Stack Web Developer specializing in React, Node.js and modern web applications. Explore projects, skills and get in touch.">
+<meta name="keywords" content="full stack developer, web developer portfolio, react developer, node.js developer">
+<meta name="author" content="Alex Morgan">
+<meta property="og:title" content="Alex Morgan | Full Stack Web Developer">
+<meta property="og:description" content="Portfolio showcasing full stack web development projects, skills and experience.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<!-- Header / Nav -->
+<header class="header" id="header">
+  <div class="container nav-wrap">
+    <a href="#home" class="logo">Alex<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="container hero-wrap">
+    <div class="hero-text">
+      <p class="eyebrow">Hi, my name is</p>
+      <h1>Alex Morgan</h1>
+      <h2 class="typewriter"><span id="typed"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc">I build fast, accessible, and scalable web applications from front to back — turning ideas into real products.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+        <a href="mailto:alex.morgan@example.com" aria-label="Email">✉</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <div class="code-card">
+        <div class="dots"><span></span><span></span><span></span></div>
+        <pre><code>const dev = {
+  name: "Alex Morgan",
+  role: "Full Stack Developer",
+  stack: ["React", "Node.js", "MongoDB"],
+  hireable: true
+};</code></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section-tag">01. About Me</p>
+    <h2 class="section-title">Get To Know Me</h2>
+    <div class="about-wrap">
+      <div class="about-photo">
+        <div class="photo-frame">AM</div>
+      </div>
+      <div class="about-text">
+        <p>I'm a full stack web developer with a passion for crafting clean, user-friendly interfaces backed by solid, scalable server-side architecture. I enjoy turning complex problems into simple, elegant solutions.</p>
+        <p>Currently, I'm interning as a Full Stack Web Developer, building real-world applications — from personal portfolios to CRM systems and business websites — while sharpening my skills in modern JavaScript frameworks and backend development.</p>
+        <p>When I'm not coding, I'm exploring new frameworks, contributing to open source, or writing about what I learn.</p>
+        <a href="#" class="btn btn-primary" id="resumeBtn">Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="section-tag">02. Skills</p>
+    <h2 class="section-title">What I Work With</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML5 &amp; CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Backend</h3>
+        <ul>
+          <li>Node.js &amp; Express</li>
+          <li>REST APIs</li>
+          <li>Authentication &amp; Security</li>
+          <li>Server-side Logic</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Database</h3>
+        <ul>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>Data Modeling</li>
+          <li>CRUD Operations</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>VS Code</li>
+          <li>Figma</li>
+          <li>AI-Assisted Dev Tools</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="projects">
+  <div class="container">
+    <p class="section-tag">03. Projects</p>
+    <h2 class="section-title">Things I've Built</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="#" aria-label="GitHub repo">GH</a>
+            <a href="#" aria-label="Live demo">↗</a>
+          </div>
+        </div>
+        <h3>Personal Portfolio Website</h3>
+        <p>A fully responsive personal portfolio with an interactive resume, contact form with email notifications, and an SEO-friendly structure.</p>
+        <ul class="tech-list">
+          <li>HTML/CSS</li><li>JavaScript</li><li>Node.js</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="#" aria-label="GitHub repo">GH</a>
+            <a href="#" aria-label="Live demo">↗</a>
+          </div>
+        </div>
+        <h3>Client Lead Management System</h3>
+        <p>A mini CRM to manage client leads with status tracking, notes, follow-ups, and secure admin access.</p>
+        <ul class="tech-list">
+          <li>React</li><li>Express</li><li>MongoDB</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="#" aria-label="GitHub repo">GH</a>
+            <a href="#" aria-label="Live demo">↗</a>
+          </div>
+        </div>
+        <h3>Local Business Website</h3>
+        <p>A professional website built for a real local business, designed to help drive bookings and visibility.</p>
+        <ul class="tech-list">
+          <li>WordPress</li><li>JavaScript</li><li>Figma</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section section-alt" id="contact">
+  <div class="container contact-wrap">
+    <p class="section-tag center">04. Contact</p>
+    <h2 class="section-title center">Get In Touch</h2>
+    <p class="contact-desc">Have a project in mind or just want to say hi? My inbox is always open — I'll get back to you as soon as I can.</p>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" id="submitBtn">Send Message</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>Designed &amp; Built by Alex Morgan &copy; <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
